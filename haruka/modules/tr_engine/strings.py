@@ -21,7 +21,7 @@ from codecs import encode, decode
 from haruka import LOGGER
 from haruka.modules.sql.locales_sql import prev_locale
 
-LANGUAGES = ['en-US', 'en-GB', 'id', 'ru', 'es']
+LANGUAGES = ['en-US', 'ru']
 
 strings = {}
 
