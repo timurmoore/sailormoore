@@ -1,1 +1,1 @@
-haruka: python3 -m haruka
+timoore: python3 -m  timoore
