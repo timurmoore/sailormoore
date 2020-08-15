@@ -1,9 +1,3 @@
-else:
-            help_string = """Бот @timurmoore\n [MOORE HELPER](https://t.me/timurmoore)\n`Бот имеет следующие плагины:`"""
-            results = await bot.inline_query(  # pylint:disable=E0602
-                tgbotusername,
-                help_string
-            )
 ---
 #Main
 send-help: |
