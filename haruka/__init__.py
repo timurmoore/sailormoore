@@ -30,7 +30,7 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-LOGGER.info("Starting haruka...")
+LOGGER.info("Starting timoore...")
 
 # If Python version is < 3.6, stops the bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 8:
@@ -124,7 +124,7 @@ updater = tg.Updater(TOKEN, workers=WORKERS)
 
 dispatcher = updater.dispatcher
 
-tbot = TelegramClient("haruka", API_KEY, API_HASH)
+tbot = TelegramClient("timoore", API_KEY, API_HASH)
 
 SUDO_USERS = list(SUDO_USERS)
 WHITELIST_USERS = list(WHITELIST_USERS)
